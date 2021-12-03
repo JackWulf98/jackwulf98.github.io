@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Passing of Time</title>
+
+
+	<style type="text/css">
+    *{
+        background: lightsteelblue; /lightsteelblue/ /darkgoldenrod/ 
+
+        /should there be more changing variables other than size and blur? Should color change?/
+    }
+    </style>
+
+		<style>
+
+
+            h1{
+            color: white;
+            font-style: italic;
+            font-size: 10pt;
+            font-family: sans-serif;
+            background: none;
+
+            position: fixed; 
+            bottom: 0; 
+            left: 0; 
+            padding-left: 10px;
+            text-align:left;
+        }
+
+            h2{
+            color: white;
+            font-style: italic;
+            font-size: 10pt;
+            font-family: sans-serif;
+            background: none;
+          
+
+            position: fixed; 
+            bottom: 0; 
+            right: 0; 
+            padding-right: 10px;
+            text-align:right;
+        }
+
+            .Year1dotOFF {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: black;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            margin-bottom: 30px;
+            margin-left: 12px;
+
+
+            }
+
+			.Week1 {
+ 			width: 1485px;
+  			height: 1485px;
+  			border-radius: 50%;
+ 			background-color: black;
+ 			top: 50%;
+ 			left: 50%;
+  			transform: translate(-50%, -50%);
+  			filter: blur(30px);
+            position: fixed;
+
+                /width and height increase by 33px each each, begins at 33px/
+                /blur increases by 1 px each week, caps out at 30px, begins at 2px/
+                /Every 52 weeks the circle will take over the screen, and be arcieved as a small dot on the bottom of the screen/
+                /began march 8th 2020/ 
+                /update the week number in the lower right each week/
+
+  		    }
+
+            .Year1Week34OFF {
+
+            width: 1122px;
+            height: 1122px;
+            border-radius: 50%;
+            background-color: darkslateblue;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            filter: blur(30px);
+            position: fixed;  
+
+            }
+
+  		
+
+  
+
+		</style>
+
+
+
+
+	</head>
+	<body>
+		<div class="Week1"></div>
+        <div class="Year1dot"></div>
+        <div class="Year1Week34"></div>
+        
+
+	
+
+		<h1> The weeks are passing seemingly slow, but last year seems so far away... </h1>
+		<h2> Every week has subtle change. This is the 45th week.</h2>
+	</body>
+</html>
